@@ -1,5 +1,5 @@
 Summary:	Tcl Thread - extension to gain script-level access to Tcl threading capabilities
-Summary(pl):	Tcl Thread - rozszerzenie pozwalaj±ce na dostêp do w±tków Tcl-a z poziomu skryptów
+Summary(pl.UTF-8):   Tcl Thread - rozszerzenie pozwalajÄ…ce na dostÄ™p do wÄ…tkÃ³w Tcl-a z poziomu skryptÃ³w
 Name:		tcl-thread
 Version:	2.6.5
 Release:	1
@@ -16,9 +16,9 @@ BuildRoot:	%{tmpdir}/%{name}-%{version}-root-%(id -u -n)
 Tcl Thread extension can be used to gain script-level access to Tcl
 threading capabilities.
 
-%description -l pl
-Rozszerzenie Tcl Thread pozwala na dostêp do mo¿liwo¶ci w±tkowania
-Tcl-a z poziomu skryptów.
+%description -l pl.UTF-8
+Rozszerzenie Tcl Thread pozwala na dostÄ™p do moÅ¼liwoÅ›ci wÄ…tkowania
+Tcl-a z poziomu skryptÃ³w.
 
 %prep
 %setup -q -n thread%{version}
