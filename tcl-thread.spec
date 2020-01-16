@@ -1,12 +1,12 @@
 Summary:	Tcl Thread - extension to gain script-level access to Tcl threading capabilities
 Summary(pl.UTF-8):	Tcl Thread - rozszerzenie pozwalające na dostęp do wątków Tcl-a z poziomu skryptów
 Name:		tcl-thread
-Version:	2.8.4
+Version:	2.8.5
 Release:	1
 License:	BSD-like
 Group:		Libraries
 Source0:	http://downloads.sourceforge.net/tcl/thread%{version}.tar.gz
-# Source0-md5:	892525df65487985ac85415639909026
+# Source0-md5:	492821a819868432e9832992655fd4de
 URL:		http://tcl.sourceforge.net/
 BuildRequires:	tcl-devel >= 8.4
 Requires:	tcl >= 8.4
